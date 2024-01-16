@@ -117,12 +117,13 @@ namespace M004
 			//String zu Enum
 			Enum.Parse<Wochentag>("Mo"); //In spitzer Klammer das Zielenum angeben
 
-            //int zu Enum
+            //int <-> Enum
             Console.WriteLine((Wochentag) 3);
-			#endregion
+            Console.WriteLine((int) tag);
+            #endregion
 
-			#region Switch
-			Wochentag x = Wochentag.Mo;
+            #region Switch
+            Wochentag x = Wochentag.Mo;
 
 			//Strg + .: Add missing cases
 			switch (x)
