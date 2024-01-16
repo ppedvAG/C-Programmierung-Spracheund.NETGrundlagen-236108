@@ -78,9 +78,9 @@ namespace M004
 			//}
 
 			int[,] zweiD = new int[3, 3];
-			foreach (int x in zweiD)
+			foreach (int d in zweiD)
 			{
-                Console.WriteLine(x);
+                Console.WriteLine(d);
             }
 
 			for (int i = 0; i < zweiD.GetLength(0); i++)
@@ -123,6 +123,8 @@ namespace M004
 
 			#region Switch
 			Wochentag x = Wochentag.Mo;
+
+			//Strg + .: Add missing cases
 			switch (x)
 			{
 				case Wochentag.Mo:
