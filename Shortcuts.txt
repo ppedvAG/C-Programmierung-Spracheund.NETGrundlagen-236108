@@ -2,3 +2,6 @@ Strg + D: Kopiert die derzeitige Zeile
 Strg + K, Strg + C: Codeblock auskommentieren
 Strg + K, Strg + U: Codeblock einkommentieren
 Strg + K, Strg + D: Code formatieren
+F12: Zur Definition springen
+Strg + .: Schnelloptionen anzeigen
+Strg + Leertaste: Codebausteine anzeigen

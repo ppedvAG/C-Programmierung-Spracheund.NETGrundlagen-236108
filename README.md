@@ -18,7 +18,7 @@ Kurs Repository zum Kurs C# Programmierung - Sprache und .NET Grundlagen der ppe
 
 
 ## M02 | VARIABLEN, DATENTYPEN, KONVERTIERUNGEN und OPERATOREN
-- [ ] Sprachgundlagen 
+- [ ] Sprachgrundlagen 
 - [ ] Variablen & Datentypen 
 - [ ] Aus- und Eingaben
 - [ ] Parsing & Casting
@@ -27,7 +27,7 @@ Kurs Repository zum Kurs C# Programmierung - Sprache und .NET Grundlagen der ppe
 
 ## M03 | ARRAYS und BEDINGUNGEN
 - [ ] eindimensionale Arrays 
-- [ ] mehdimensionale Arrays 
+- [ ] mehrdimensionale Arrays 
 - [ ] logische Operatoren
 - [ ] if-Abfrage 
 
