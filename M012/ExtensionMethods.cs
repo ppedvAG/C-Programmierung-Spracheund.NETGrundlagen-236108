@@ -11,4 +11,20 @@ public static class ExtensionMethods
 	{
 		return x.OrderBy(e => Random.Shared.Next());
 	}
+	
+	//SQL IN
+	//string s = "Hallo"; if (s.In("1", "2", "3"))
+	//int x = 4; if (x.In(1, 2, 3, 4))
+	public static bool In<T>(this T obj, params T[] values)
+	{
+		return values.Contains(obj);
+	}
+
+	public static bool In<T>(this IEnumerable<T> x, params T[] values)
+	{
+		foreach (T v in values)
+			if (x.Contains(v))
+				return true;
+		return false;
+	}
 }
