@@ -6,3 +6,4 @@ F12: Zur Definition springen
 Strg + .: Schnelloptionen anzeigen
 Strg + Leertaste: Codebausteine anzeigen
 Alt + Ziehen: Multizeilencursor
+Strg + R, R: Member umbenennen
