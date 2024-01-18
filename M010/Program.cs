@@ -87,7 +87,7 @@ public class Elektroauto : IAufladbar
 
 	public string Akkuzustand()
 	{
-		return $"Der Akkustand beträgt {Akkustand}%. Der Akku wird {(!WirdGeladen ? "nicht" : "")} geladen.";
+		return $"Der Akkustand beträgt {Akkustand}%. Der Akku wird {(!WirdGeladen ? "nicht " : " ")}geladen.";
     }
 
 	public void Aufladen(int Akkustand)
